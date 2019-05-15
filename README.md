@@ -63,7 +63,7 @@ https://github.com/HelloSoul/AndroidWebrtcAec
 #### 结论
 单纯使用webrtc-aec 进行降噪处理，其效果并不太理想，大概能去除80%左右的扬声器回声，不过仍能听到20%左右的背景声音。此方法最大好处是不依赖ROM，适配性较好。
 
-综上：
+## 综上：
 AcousticEchoCanceler没什么作用
 AudioSource.VOICE_COMMUNICATION + AudioManager.MODE_IN_COMMUNICATION
 方式除了三星效果不太好，其他品牌没测出问题。
