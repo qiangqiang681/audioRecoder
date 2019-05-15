@@ -2,7 +2,9 @@
 
 ### 想要实现aec功能主要有三个切入点：
 AcousticEchoCanceler（API4.1提供）
+
 AudioSource.VOICE_COMMUNICATION（使用voip通道录音）
+
 webrtc（业界有名的回声消除库，支持跨平台，难点是计算delay时间）
 ### AcousticEchoCanceler
 回音消除需要和采集声音配合在一起，使用AudioRecord:
